@@ -21,13 +21,13 @@ django-admin startproject bildmauer
 ```console
 python manage.py migrate
 python manage.py runserver
-python manage.py startapp pixelblock
+python manage.py startapp pixelmauer
 ```
 
-- add 'todolist' to INSTALLED_APPS
+- add 'pixelmauer' to INSTALLED_APPS
 
 ### Add views
-- implement todolist.views.py and create todolist.urls.py
+- implement pixelmauer.views.py and create todolist.urls.py
 - add urls to todoapp.urls.py
 
 ### Add templates
