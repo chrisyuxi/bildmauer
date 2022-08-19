@@ -1,4 +1,4 @@
- # die Bildmauer von Sidi
+ # die Bildmauer
 
 ## 使用的技术
  - Django
@@ -24,11 +24,11 @@ python manage.py runserver
 python manage.py startapp pixelmauer
 ```
 
-- add 'pixelmauer' to INSTALLED_APPS
+- add 'pixelmauer' to bildmauer.settings.py INSTALLED_APPS
 
 ### Add views
 - implement pixelmauer.views.py and create todolist.urls.py
-- add urls to todoapp.urls.py
+- add urls to bildmauer.urls.py
 
 ### Add templates
 - add templates folder and file
@@ -36,4 +36,4 @@ python manage.py startapp pixelmauer
 - modify view: return render...
 
 ### Add models
-- implement todolist.models.py
+- implement pixelmauser.models.py
